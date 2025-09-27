@@ -1,2 +1,54 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Melo</title>
+    <style>
+        /* Estilos CSS para hacer el texto "Melo" */
+        body {
+            display: flex; /* Para centrar el contenido */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ocupar toda la altura de la pantalla */
+            margin: 0;
+            background-color: #1a1a2e; /* Fondo oscuro (color futurista) */
+            font-family: 'Arial', sans-serif; /* Fuente legible y moderna */
+        }
+
+        .texto-melo {
+            font-size: 3em; /* Tamaño grande */
+            font-weight: bold; /* Negrita */
+            color: #ffffff; /* Color de texto blanco (base) */
+            text-shadow: 
+                0 0 10px #e94560, /* Sombra rosa claro */
+                0 0 20px #e94560,
+                0 0 30px #e94560,
+                0 0 40px #ff6e8c; /* Sombra más intensa para el efecto "glow" */
+            letter-spacing: 5px; /* Espaciado entre letras */
+            animation: pulse 2s infinite alternate; /* Animación de pulsación */
+            padding: 10px 20px;
+            border: 3px solid #e94560; /* Borde que combine */
+            border-radius: 10px;
+            background-color: #2a2a4a; /* Fondo sutil para el texto */
+        }
+
+        /* Definición de la animación de pulsación */
+        @keyframes pulse {
+            from {
+                transform: scale(1);
+                opacity: 1;
+            }
+            to {
+                transform: scale(1.05);
+                opacity: 0.9;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="texto-melo">
+        ¡Misael_ diseñador! 😎
+    </div>
+</body>
+</html>
